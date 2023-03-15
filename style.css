@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Andika&family=Lemonada&family=Montserrat&display=swap");
+
+:root {
+  --primaryColor: #c0564a;
+  --secundaryColor: #ffe57d;
+  --thirdColor: #f8e3dd;
+  --fourthColor: #ffc2b0;
+  --fiveColor: #ffffff;
+  --sixColor: #000000;
+}
+
+/* NAVIGATIE MENIU */
+nav {
+  background-color: var(--primaryColor);
+}
+
+.nav-link,
+.navbar-brand,
+.dropdown-item,
+.nav-link:visited,
+.navbar-brand:visited {
+  color: var(--fiveColor);
+}
+
+.nav-link:hover,
+.navbar-brand:hover,
+.dropdown-item:hover,
+.nav-link:focus {
+  color: var(--secundaryColor);
+  background-color: var(--primaryColor);
+}
+
+.dropdown-menu {
+  background-color: var(--primaryColor);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler-icon:hover {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 229, 125, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+  border: 1px solid var(--fiveColor);
+}
+
+.navbar-toggler:hover {
+  border: 1px solid var(--secundaryColor);
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* Sectiunea hero */
+
+.img-hero-parallax {
+  background-image: url("assets/images/hero-section-img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 78vh;
+}
+
+.slogan {
+  font-size: 28px;
+  font-family: "Lemonada", sans-serif;
+  color: var(--primaryColor);
+}
+
+.fundal-slogan {
+  background-color: var(--thirdColor);
+}
+
+/* Trei casete cu produse si mini-slogan */
+
+.carduri-img-mini-slogan {
+  height: 100%;
+}
+
+.carduri-img-mini-slogan img {
+  border-radius: 4px;
+  border-right: 5px solid var(--secundaryColor);
+  border-bottom: 5px solid var(--secundaryColor);
+}
+
+.carduri-img-mini-slogan img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mini-slogan {
+  font-size: 20px;
+  font-family: "Lemonada", sans-serif;
+  color: var(--primaryColor);
+  font-weight: bold;
+}
+
+.font-text {
+  font-family: "Andika", sans-serif;
+  font-size: 18px;
+}
+
+/* Sectiune-locatie + meniu */
+.meniu-locatie {
+  background-color: var(--secundaryColor);
+}
+
+.locatie-img {
+  background-image: url("assets/images/locatie-img-home.webp");
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  border-right: 5px solid var(--secundaryColor);
+  border-bottom: 5px solid var(--secundaryColor);
+  height: 60vh;
+}
+
+.meniu-img {
+  background-image: url("assets/images/meniu-img-home.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  border-right: 5px solid var(--secundaryColor);
+  border-bottom: 5px solid var(--secundaryColor);
+  height: 60vh;
+}
+
+.butoane a {
+  color: var(--fiveColor);
+  text-decoration: none;
+}
+
+.locatie-img button,
+.meniu-img button,
+.sectiune-text button {
+  background-color: var(--primaryColor);
+  margin-top: 1.5em;
+}
+
+.locatie-img button:hover,
+.meniu-img button:hover,
+.sectiune-text button:hover {
+  background-color: var(--primaryColor);
+}
+
+/* Sectiune    textplus scurt video */
+
+.text-video-fundal {
+  background: linear-gradient(
+    223deg,
+    rgba(255, 255, 255, 1) 29%,
+    rgba(248, 227, 221, 1) 29%
+  );
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* Testimoniale */
+.nume {
+  font-size: 20px;
+  color: var(--primaryColor);
+  font-family: "Lemonada", sans-serif;
+}
+
+.bi-star-fill {
+  color: var(--secundaryColor);
+}
+
+.testimonial-card {
+  box-shadow: 0px 0px 9px 0px var(--secundaryColor);
+}
+
+.testimonial-card:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease-in-out;
+}
+
+/*  CONTAINER--CU RETELE SOCIALE SI IMAGINI */
+
+.cutie-mare-retele {
+  background-color: var(--fourthColor);
+}
+
+.slogan-white {
+  font-size: 2em;
+  font-family: "Lemonada", sans-serif;
+  color: var(--fiveColor);
+}
+
+.imagine-retele {
+  border-right: 4px solid var(--fiveColor);
+  border-bottom: 4px solid var(--fiveColor);
+  border-radius: 5px;
+}
+
+.social-icon {
+  font-size: 30px;
+  background-color: var(--primaryColor);
+  border-radius: 4px;
+  padding: 4px 8px;
+  color: var(--fiveColor);
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--primaryColor);
+}
