@@ -1,7 +1,7 @@
 # DeliciiSavuroase
 
-Site-ul Delicii Savuroase a fost creat utilizând HTML, CSS și Bootstrap, cu puțin JavaScript. Acesta este o cofetărie-patiserie online care oferă produse dulci și delicioase pentru iubitorii de dulce din ingrediente atent selectate. Pagina principală a site-ului prezintă o imagine parallax și o scurtă descriere a cofetăriei, împreună cu testimoniale și un footer cu informații de contact.
+The "Delicii Savuroase" website was built with HTML, CSS, Bootstrap, and a little JavaScript. For those with a sweet tooth, this online pastry shop offers sweet and delicious products made from carefully selected ingredients. A parallax image, a short description of the confectionery, and a footer with contact information are displayed on the site's main page.
 
-Paginile site-ului includ: Povestea noastră, care oferă o descriere detaliată a originii și valorilor cofetăriei, Produsele noastre, care include o gamă largă de produse, cum ar fi torturi personalizate, patiserie și produse de post, Galerie, care prezintă imagini ale produselor noastre, și Contact, unde clienții pot găsi informații despre locația și orele de funcționare ale cofetăriei.
+The website contains the following pages: "Povestea Noastra" which details the origins and values ​​of our patisserie, "Produsele Noastre" which includes a variety of products such as custom cakes, fasting products, and pastries, "Galeria" which shows our products, and "Contact" where customers can find out the location and opening hours.
 
-Site-ul a fost conceput cu o atenție deosebită la detalii, culori și stiluri, pentru a oferi o experiență vizuală plăcută utilizatorilor. De asemenea, a fost proiectat pentru a fi ușor de utilizat și de navigat, cu un design responsiv și un layout bine organizat, astfel încât clienții să poată găsi rapid și ușor produsele pe care le caută.
+The site has been carefully designed to provide users with a pleasant visual experience. In addition, it has a responsive design and a well-organized layout so that customers can quickly and easily find the products they are looking for.
